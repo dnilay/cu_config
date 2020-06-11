@@ -1,6 +1,10 @@
 server:
   port: 8088
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8099
   application:
     name: config-server
   cloud:
